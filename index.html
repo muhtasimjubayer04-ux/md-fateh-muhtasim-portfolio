@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!--
+    ========================================================================
+    TAGLINE OPTIONS FOR MD FATEH MUHTASIM (Choose your preferred tagline below):
+    Option 1: "Building software, one line at a time." (Currently Active)
+    Option 2: "Learning by doing, growing with code."
+    Option 3: "Crafting foundations in software engineering, step by step."
+    ========================================================================
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Md Fateh Muhtasim - Software Engineering Student Portfolio. Showcase of skills, practice projects, education journey, and contact details.">
+  <meta name="author" content="Md Fateh Muhtasim">
+  <title>Md Fateh Muhtasim | Software Engineering Student</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23080D18'/><text x='50%' y='62%' font-size='42' font-weight='bold' fill='%23D8B56A' font-family='sans-serif' text-anchor='middle'>MFM</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-box">MFM</span>
+        <span class="logo-text">Muhtasim</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#brand-support" class="nav-link">Brand Support</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#roles" class="nav-link">Roles</a></li>
+        <li><a href="#certifications" class="nav-link">Certs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Theme Switcher & Mobile Menu Button -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark and light mode">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+
+        <button id="hamburger-menu" class="hamburger-btn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / Introduction Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>Learning &amp; Building Daily</span>
+          </div>
+
+          <h1 class="hero-name">Md Fateh Muhtasim</h1>
+          <h2 class="hero-role" id="hero-role-animated" aria-label="Software Engineering Student">
+            <span class="hero-word" style="--word-index: 0;">Software</span>
+            <span class="hero-word" style="--word-index: 1;">Engineering</span>
+            <span class="hero-word" style="--word-index: 2;">Student</span>
+          </h2>
+          
+          <p class="hero-tagline">"Building software, one line at a time."</p>
+          <p class="hero-subtext">Developing a strong foundation in computer science principles, object-oriented programming, and clean web design at Daffodil International University.</p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="mailto:muhtasimjubayer04@gmail.com" class="social-link" aria-label="Email Contact">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrapper reveal">
+          <div class="avatar-ring"></div>
+          <div class="avatar-card">
+            <div class="profile-img-container">
+              <img src="profile.jpg" alt="Md Fateh Muhtasim" class="hero-profile-img">
+            </div>
+            <div class="avatar-badge">
+              <span class="code-icon">&lt;/&gt;</span>
+              <span>Software Engineering Student</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-card reveal">
+            <h3 class="about-heading">My Learning Journey</h3>
+            <p class="about-text">
+              I am a Software Engineering student at <strong>Daffodil International University</strong>, currently building my foundation in programming, object-oriented concepts, and web development. I believe in learning by doing, and this portfolio grows as my skills do.
+            </p>
+            <p class="about-text">
+              Instead of focusing on shortcuts, I am dedicated to practicing core fundamentals—writing C++ logic, structural Java programs, and constructing modern, semantic HTML, CSS, and JavaScript interfaces. My focus is on curiosity, consistency, and constant self-improvement.
+            </p>
+
+            <!-- Student ID Badge -->
+            <div class="student-id-card">
+              <div class="id-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div class="id-details">
+                <span class="id-label">Academic Identity</span>
+                <span class="id-value">Student ID: <strong>242-35-266</strong></span>
+                <span class="id-institution">Daffodil International University</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-pillars reveal">
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon">🎯</div>
+              <h4>Curiosity First</h4>
+              <p>Exploring how software systems work under the hood through hands-on practice.</p>
+            </div>
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon">⚡</div>
+              <h4>Daily Consistency</h4>
+              <p>Writing code every single day to turn fundamental concepts into strong practical skills.</p>
+            </div>
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon">🌱</div>
+              <h4>Growth Mindset</h4>
+              <p>Embracing debugging and errors as essential learning milestones in engineering.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Skills &amp; Currently Learning</h2>
+          <p class="section-subtitle">Authentic tracking of my technical foundation and personal development.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-wrapper">
+          <!-- Languages & Web -->
+          <div class="skill-category glass-card reveal">
+            <div class="category-header">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              <h3>Languages &amp; Web Development</h3>
+            </div>
+            
+            <div class="badges-grid">
+              <div class="skill-pill">
+                <span class="pill-name">HTML5</span>
+                <span class="learning-badge"><span class="badge-dot"></span> Learning</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">CSS3</span>
+                <span class="learning-badge"><span class="badge-dot"></span> Learning</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">C++</span>
+                <span class="learning-badge"><span class="badge-dot"></span> Learning</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Java</span>
+                <span class="learning-badge"><span class="badge-dot"></span> Learning</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">JavaScript</span>
+                <span class="learning-badge"><span class="badge-dot"></span> Learning</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-category glass-card reveal">
+            <div class="category-header">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <h3>Personal Attributes &amp; Soft Skills</h3>
+            </div>
+
+            <div class="badges-grid">
+              <div class="skill-pill soft-pill">
+                <span class="pill-name">Eagerness to Learn</span>
+              </div>
+              <div class="skill-pill soft-pill">
+                <span class="pill-name">Consistency</span>
+              </div>
+              <div class="skill-pill soft-pill">
+                <span class="pill-name">Adaptability</span>
+              </div>
+              <div class="skill-pill soft-pill">
+                <span class="pill-name">Teamwork</span>
+              </div>
+              <div class="skill-pill soft-pill">
+                <span class="pill-name">Time Management</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Practice Projects</h2>
+          <p class="section-subtitle">Small-scale learning applications and code exercises built during my studies.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card glass-card reveal">
+            <div class="project-tag-badge">Placeholder / Practice</div>
+            <h3 class="project-title">C++ &amp; Java Logic Applications</h3>
+            <p class="project-description">
+              A repository of console applications focused on object-oriented programming concepts, basic data structures, and conditional logic built for coursework practice.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">C++</span>
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">OOP</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>GitHub Repository [Placeholder]</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass-card reveal">
+            <div class="project-tag-badge">Placeholder / Practice</div>
+            <h3 class="project-title">Responsive Personal Portfolio Layout</h3>
+            <p class="project-description">
+              A clean, modern multi-section website engineered with semantic HTML5, custom CSS variables, and vanilla JavaScript features such as smooth scrolling and light/dark theme toggling.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>GitHub Repository [Placeholder]</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card glass-card reveal">
+            <div class="project-tag-badge">Placeholder / Practice</div>
+            <h3 class="project-title">Interactive JavaScript Utility App</h3>
+            <p class="project-description">
+              A web-based practice utility application (calculator &amp; task planner) showcasing dynamic DOM updates, event handling, and input validation without external dependencies.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">DOM API</span>
+              <span class="tech-tag">CSS Grid</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>GitHub Repository [Placeholder]</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card glass-card reveal">
+            <div class="project-tag-badge">Placeholder / Practice</div>
+            <h3 class="project-title">Algorithms &amp; Problem Solving Exercises</h3>
+            <p class="project-description">
+              Implementations of foundational sorting, searching algorithms, and array data structure operations written during programming lab sessions.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">C++</span>
+              <span class="tech-tag">Algorithms</span>
+              <span class="tech-tag">Data Structures</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>GitHub Repository [Placeholder]</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Promotion & Social Media Support Section -->
+    <section id="brand-support" class="brand-support-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-icon-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+          </div>
+          <h2 class="section-title">Brand Promotion &amp; Social Media Support</h2>
+          <p class="section-subtitle">Voluntary community promotion and brand outreach experience.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="brand-support-card glass-card reveal">
+          <div class="informal-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+            <span>Informal / Voluntary Support</span>
+          </div>
+
+          <h3 class="brand-card-title">Clothing Brand Social Media Support</h3>
+          <p class="brand-card-desc">
+            Provided informal, voluntary assistance to an emerging local clothing brand by helping amplify their digital presence across social platforms.
+          </p>
+
+          <ul class="support-bullets">
+            <li>
+              <span class="bullet-icon">✓</span>
+              <span>Supported a clothing brand by sharing and promoting their posts on social media channels.</span>
+            </li>
+            <li>
+              <span class="bullet-icon">✓</span>
+              <span>Helped increase the brand's visibility and reach by engaging with and distributing their content.</span>
+            </li>
+            <li>
+              <span class="bullet-icon">✓</span>
+              <span>Promoted their clothing products to potential customers through social sharing and personal recommendations.</span>
+            </li>
+            <li>
+              <span class="bullet-icon">✓</span>
+              <span>Helped create awareness around their products and encouraged people to check out and purchase from the brand.</span>
+            </li>
+          </ul>
+
+          <div class="informal-note">
+            <em>Note: This was informal promotional support provided voluntarily to assist brand growth, not formal employment or a corporate marketing role.</em>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Education Journey</h2>
+          <p class="section-subtitle">My academic background and ongoing software engineering studies.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-badge status-ongoing">Present / Ongoing</div>
+              <h3 class="degree-title">Bachelor of Science in Software Engineering</h3>
+              <h4 class="institution-name">Daffodil International University</h4>
+              <p class="timeline-detail">
+                Currently pursuing a comprehensive curriculum covering software engineering fundamentals, algorithm design, web technologies, and programming paradigms.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-badge status-completed">Completed</div>
+              <h3 class="degree-title">Higher Secondary Certificate (HSC)</h3>
+              <h4 class="institution-name">Mirpur University Model College (MUBC)</h4>
+              <p class="timeline-location">Mirpur, Dhaka-1216</p>
+              <p class="timeline-detail">
+                Completed higher secondary studies in Science stream, establishing mathematical and logical analytical foundations.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-badge status-completed">Completed</div>
+              <h3 class="degree-title">Secondary School Certificate (SSC)</h3>
+              <h4 class="institution-name">Monipur High School</h4>
+              <p class="timeline-detail">
+                Completed secondary school education with focus on science fundamentals and computer literacy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roles & Responsibilities Section -->
+    <section id="roles" class="roles-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Roles &amp; Responsibilities</h2>
+          <p class="section-subtitle">Leadership, club activities, and student voluntary responsibilities.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="roles-grid">
+          <div class="role-card glass-card reveal">
+            <div class="role-placeholder-tag">Placeholder</div>
+            <h3 class="role-title">Class Representative</h3>
+            <span class="role-org">Daffodil International University</span>
+            <p class="role-desc">
+              [Placeholder: Assisting peers by liaising between course instructors and students, organizing study schedules, and sharing academic announcements.]
+            </p>
+          </div>
+
+          <div class="role-card glass-card reveal">
+            <div class="role-placeholder-tag">Placeholder</div>
+            <h3 class="role-title">Event Coordinator – Tech Club</h3>
+            <span class="role-org">University Student Community</span>
+            <p class="role-desc">
+              [Placeholder: Voluntary involvement in organizing campus tech talks, programming workshops, and peer collaboration meetups.]
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certs-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">Courses and online certifications as I continue to expand my skills.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="certs-grid">
+          <div class="cert-card glass-card reveal">
+            <div class="cert-platform">Coursera [Placeholder]</div>
+            <h3 class="cert-title">[Add Certification Title]</h3>
+            <p class="cert-date">Issued: [Add Date] • Platform: Coursera</p>
+            <div class="cert-status">In Progress / Planned</div>
+          </div>
+
+          <div class="cert-card glass-card reveal">
+            <div class="cert-platform">Udemy [Placeholder]</div>
+            <h3 class="cert-title">[Add Certification Title]</h3>
+            <p class="cert-date">Issued: [Add Date] • Platform: Udemy</p>
+            <div class="cert-status">In Progress / Planned</div>
+          </div>
+
+          <div class="cert-card glass-card reveal">
+            <div class="cert-platform">HackerRank [Placeholder]</div>
+            <h3 class="cert-title">[Add Certification Title]</h3>
+            <p class="cert-date">Issued: [Add Date] • Platform: HackerRank</p>
+            <div class="cert-status">In Progress / Planned</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Achievements</h2>
+          <p class="section-subtitle">Academic highlights, problem-solving milestones, and recognitions.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card glass-card reveal">
+            <div class="achievement-icon">🏆</div>
+            <h3 class="achievement-title">Academic Dedicated Learner</h3>
+            <p class="achievement-desc">
+              [Placeholder: Recognized for consistent attendance, active course participation, and steady academic performance in core programming modules.]
+            </p>
+          </div>
+
+          <div class="achievement-card glass-card reveal">
+            <div class="achievement-icon">⚡</div>
+            <h3 class="achievement-title">Competitive Programming Practice</h3>
+            <p class="achievement-desc">
+              [Placeholder: Active practice solving fundamental problem-solving puzzles on online judge platforms to sharpen logical thinking.]
+            </p>
+          </div>
+
+          <div class="achievement-card glass-card reveal">
+            <div class="achievement-icon">🤝</div>
+            <h3 class="achievement-title">Hackathon &amp; Workshop Participant</h3>
+            <p class="achievement-desc">
+              [Placeholder: Participated in campus coding bootcamps and team development workshops.]
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">Have a question or want to get in touch? Send me a message below.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Quick Info Side -->
+          <div class="contact-info glass-card reveal">
+            <h3 class="info-title">Let's Connect</h3>
+            <p class="info-desc">
+              Feel free to reach out for student collaborations, peer discussions, or questions!
+            </p>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-val">Dhaka, Bangladesh</span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div>
+                <span class="info-label">Email</span>
+                <a href="mailto:muhtasimjubayer04@gmail.com" class="info-val info-link">muhtasimjubayer04@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <span class="info-label">Phone</span>
+                <span class="info-val">01311933022</span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </div>
+              <div>
+                <span class="info-label">Facebook</span>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="info-val info-link">Md Muhtasim Jubayer</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </div>
+              <div>
+                <span class="info-label">Instagram</span>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="info-val info-link">_golu_morse</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card glass-card reveal">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" value="Muhtasim" required placeholder="Enter your full name">
+                <span class="error-msg" id="name-error">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" value="01311933022" required placeholder="Enter phone number">
+                <span class="error-msg" id="phone-error">Please enter a valid phone number</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" value="muhtasimjubayer04@gmail.com" required placeholder="Enter valid email address">
+                <span class="error-msg" id="email-error">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Write your message here..."></textarea>
+                <span class="error-msg" id="message-error">Please enter your message</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+
+            <!-- Dynamic Toast Notification -->
+            <div id="toast-notification" class="toast-notification hidden" role="alert">
+              <span id="toast-message">Message sent successfully!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo">
+          <span class="logo-box">MFM</span>
+          <span class="logo-text">Muhtasim</span>
+        </a>
+        <p class="footer-tagline">Building software foundations with dedication and continuous practice.</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="mailto:muhtasimjubayer04@gmail.com" class="social-link" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; <span id="current-year">2026</span> Md Fateh Muhtasim. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
